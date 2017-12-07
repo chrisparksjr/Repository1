@@ -1,0 +1,449 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Karla|Stardos+Stencil" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Taviraj" rel="stylesheet"> 
+         <link href="https://fonts.googleapis.com/css?family=Nunito:200,700,900" rel="stylesheet"> 
+    <style>
+        body {margin:0em;
+
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 24,1fr;
+grid-template-rows: 80,1fr:
+  grid-gap: 1em;
+  background-color: #fff;
+  color: #444;
+}
+        
+        h1 {font-family: 'Stardos Stencil', cursive;
+            font-size:7em;
+            text-align:left;
+            text-decoration: underline;
+   
+            
+        color: rgba(229,112,44,1);}
+        
+         h2 {font-family: 'Stardos Stencil', cursive;
+            font-size:3em;
+             text-decoration: underline;
+            
+            text-align:left;}
+        
+        h3 {font-family: 'Karla', sans-serif;
+            font-size:.8em;
+            color: gray:
+            }
+        
+    
+         
+          p {font-family: 'Nunito', sans-serif;
+            font-size:.9em;
+            color: gray;
+              line-height: 2.5em;
+                padding-right: 150px;
+            }
+            p.nav{font-family: 'Nunito', sans-serif;
+        
+            font-size:1em;
+                 line-height: 1.5em;
+              color: rgba(129,112,44,.1);}
+       
+       
+        
+        
+        
+
+.box {
+  background-color: #444;
+  color: #fff;
+ 
+  
+  font-size: 150%;
+}
+        
+       
+        .box-a {
+  background-image:url("https://i.imgur.com/VokM8Ur.jpg") ;
+  grid-column: 1/ span 12;
+     grid-row: 1/ span 10;
+ 
+padding-left: 100px;
+            padding-top: 0px;
+            padding-right: 600px;
+                padding-bottom:350px;
+  
+}    
+        
+           .box-b {
+  background-image:url("https://i.imgur.com/ToAoJ1F.png") ;
+                background-size: 2100px 1450px;
+               background-repeat: no-repeat;
+                background-position: center ; 
+  grid-column: 1/ span 12;
+     grid-row: 12/ span 12;
+
+  padding-left:200px;
+                padding-right:300px;
+               padding-top:80px;
+               padding-bottom: 200px;
+                
+               
+  
+}    
+        
+                   .box-g {
+  background-color: rgba(215,222,158,1);
+                       
+                       background-image:url("https://cdn.shopify.com/s/files/1/0219/5528/products/pickling-spice_1024x1024.png?v=1368719368") ;
+                        background-size: 355px 355px;
+               background-repeat: no-repeat;
+                background-position:  top right;
+                       
+  grid-column: 1/ span 12;
+     grid-row: 24/ span 10;
+  
+  padding-left: 200px;
+                       
+                       padding-top: 150px;
+                       padding-bottom: 200px;
+
+}    
+        
+        nav {
+  display: grid;
+  grid-template-columns: repeat(9, 7em);
+  grid-auto-rows: auto;
+  grid-gap: 1em;
+  align-items: right;
+  text-align: left;
+  margin-top:8px;
+            margin-left: 10Ppx;
+            font-size:1.5em;
+  
+    
+   
+  background:rgba(0, 0, 255 0.6);
+    
+     position: fixed; /* Set the navbar to fixed position */
+    top: 120; 
+}
+        
+        
+.navLinks {
+  
+  
+  font-size: .5em;
+  text-decoration: none;
+color:rgba(84,89,31,1);
+     font-weight: 700;
+      padding: .9em 2em;
+    line-height: 1em;
+}
+
+.navLinks:hover {
+  color: gray;
+   
+
+
+  padding: .5em .5em;
+}
+
+.navLinks:active {
+  color: blue;
+ transform: scale(2);
+
+  padding: .5em .5em;
+}
+        
+        .footer{grid-row: 50/ span 5:
+        font-family: 'Karla', sans-serif;}
+
+
+        
+                   .box-h {
+  background-color: rgba(104,111,121,.2);
+                        background-image:url("https://i.imgur.com/O2hLNvf.jpg") ;
+                        background-size: 500px 300px;
+               background-repeat: no-repeat;
+                background-position:   right;
+                       
+                           
+  grid-column: 1/ span 12;
+     grid-row: 34/ span 10;
+
+ padding: 200px;
+    padding-top:150px;
+  
+}    
+     
+        
+                   .box-i {
+ background-color: rgba(230,255,230,.6);
+  grid-column: 1/ span 12;
+     grid-row: 44/ span 10;
+
+  padding-left: 100px;
+                       
+padding-top: 50px;
+                       
+}    
+           .masonjars { 
+  grid-column: 1/ span 1;
+     grid-row: 30/ span 1;
+               padding-left:700px;
+               padding-bottom:100px;
+
+             
+
+}
+        .canning {
+  grid-column: 1/ span 1;
+     grid-row: 34/ span 1;
+            padding-left:150px;
+            padding-right:300px;
+        
+   
+        }
+        
+        
+        
+        .footer {
+  background: 
+rgba(230,255,230,1);
+  
+            padding: 20px;}
+        
+         {
+    -ms-transform: rotate(45deg); /* IE 9 */
+    -webkit-transform: rotate(45deg); /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+}
+            
+
+        
+/*Mobile*/
+@media screen and (max-width: 599px) {
+html, body {
+overflow: auto;
+    }
+h1 {
+    font-weight: 400;
+    font-size: 60px;
+    padding-bottom: 80px;
+    padding-top:40px;
+       }
+
+body {
+    width: 100%;
+  
+    }
+
+h3 {
+    font-size: 16px;
+}
+        .box-a {
+  background-image:url("https://i.imgur.com/VokM8Ur.jpg") ;
+  grid-column: 1/ span 12;
+     grid-row: 1/ span 10;
+ 
+padding: 20px;
+            padding-top: 40px;
+            padding-right: 1750px;
+                padding-bottom:250px;
+  
+}    
+        
+           .box-b {
+ 
+                background-size: 1800px 1200px;
+               background-repeat: no-repeat;
+                background-position: center right ; 
+  grid-column: 1/ span 12;
+     grid-row: 12/ span 12;
+
+padding:20px;
+               padding-right:1750px;
+               padding-top:80px;
+             
+                
+               
+  
+}    
+        
+                   .box-g {
+  background-color: rgba(215,222,158,1);
+                       
+                      
+                        background-size: 355px 355px;
+               background-repeat: no-repeat;
+                background-position:top ;
+                       
+  grid-column: 1/ span 12;
+     grid-row: 24/ span 10;
+  
+  padding-left: 20px;
+                       padding-right: 1750px;
+                       padding-top: 30px;
+                       padding-bottom: 200px;
+
+}    
+         .box-h {
+  background-color: rgba(104,111,121,.2);
+                       
+                        background-size: 500px 300px;
+               background-repeat: no-repeat;
+                background-position:  top right;
+                       
+                           
+  grid-column: 1/ span 12;
+     grid-row: 34/ span 10;
+
+ padding: 0px;
+   padding-left:20;
+             padding-top: 40px;
+             padding-right: 1700px;
+          
+  
+}    
+                .box-i {
+ background-color: rgba(230,255,230,.6);
+  grid-column: 1/ span 12;
+     grid-row: 44/ span 10;
+
+  padding-left:0px;
+                       
+padding-top: 0px;
+                       
+}    
+           .masonjars { 
+  grid-column: 1/ span 1;
+     grid-row: 30/ span 1;
+               padding-left:60px;
+              
+
+             
+
+}
+        .canning {
+  grid-column: 1/ span 1;
+     grid-row: 34/ span 1;
+            padding-left:20px;
+            padding-right:1750px;
+            padding-top:10px;
+        
+   
+        }
+    
+    
+}
+
+	
+
+html, body {
+  overflow-x: hidden;
+}
+body {
+  position: relative
+}
+        
+            
+        </style>
+    
+    </head>
+
+
+<body>
+    <header>   
+        
+  
+   </header>
+<div class="wrapper">
+    <div class="box-a"><h1>Pickling</h1>
+        
+           
+         <img src="https://i.imgur.com/8JeVZUW.png" alt="Smiley face" height="100" width="290" >
+
+     <p>Once upon a time, humans pickled to make less perishable.
+Now, we can pickle purely for the culinary satisfaction..</p>
+        
+     
+    
+    </div>
+  <div class="box-b"> 
+      
+      <h2>Cucumbers</h2>
+      <p>According to televsion show Portlandia, you can pickle almost everything. In this instance, we focus on a more traditional approach: the cucumber. The Kirby variety has a thicker skin that can stand up to the pickling liquid, and remains crunchy, with a good snap, long after it's been preserved.</p><br><br><br><br><br><br><br><br><br><br><br><br><br><br> </div>
+   <div class="box-g"><h2>Spicing</h2>
+    
+
+       
+       
+    
+      
+     
+           
+              <img src="https://i.imgur.com/8Pjpjr1.png" alt="Smiley face" height="300" width="300">
+      
+      
+           
+        
+           <br><p>Cucumbers arent typically regarded as a flavorful vegetable, so the introduction of spices is essentially. Pictured below are common spices used in a standard recipe, however, feel free to alter combinations to achieve more unique flavors.
+       </p>
+       
+     
+       
+       
+    </div> 
+    <div class="box-h"><h2>Brining</h2>
+    <p>Brining is the introduction of a sodium solution to the cucumber in this case, in order to neutralize bacteria through osmosis. From a more culinary approach, this is what provides the foundarion for the pickle.Prepare a brine using the ratio of two tablespoons of <br>salt to one quart of water.  Stir well and set aside.</p>
+    <br>
+    
+         <img src="https://i.imgur.com/2DsDosl.png" alt="Smiley face" height="500" width="500">
+    
+
+     
+      <br>
+    
+   
+        
+        
+       
+    </div>
+     <div class="box-i">
+         
+         <div class="canning">
+         <h2>Canning</h2>
+    <p>Remove air bubbles.
+
+We've covered everything going in the can, now lets get the can and fill it up. Using a glass mason jar with a ring and lid with intact seal, fill 3/4 full with cucumbers halved longways. Put spices in next, followed by brine being filled to the top. Seal the mason jar, and place in refridgerator. After 48 hours, open and enjoy!
+
+</p>
+             </div>
+         
+         <div class="masonjars">
+         
+            <img src="https://i.imgur.com/BBzqylr.png" alt="Smiley face" height="140" width="140">
+      <br>
+       <img src="https://i.imgur.com/cimqW9W.png" alt="Smiley face" height="140" width="140">
+    
+         
+         </div>
+  
+     
+    </div>
+    
+   
+
+</div>
+    
+</body>
+    
+  <footer class="footer">
+
+</footer>
+
+</html>
